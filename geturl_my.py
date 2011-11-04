@@ -101,7 +101,7 @@ class MyDataBase():
         self.conn.close()
 
 
-def process():
+def main():
     import urllib2
     import time
     MAX = 6803421
@@ -139,8 +139,6 @@ def process():
 
 
 if __name__ == '__main__':
-    print "begin"
-    process()
-    print "end"
+    main()
  
     
